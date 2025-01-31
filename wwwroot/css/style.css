@@ -1,0 +1,61 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300&display=swap');
+
+@font-face {
+    font-family: 'PoppinsMedium';
+    src: url('../fonts/Poppins-Medium.otf') format('opentype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PoppinsRegular';
+    src: url('../fonts/Poppins-Regular.otf') format('opentype');
+    font-display: swap;
+}
+
+:root {
+    --main-color: #e8786e;
+    --black: #555;
+    --light-color: #777;
+    --bg: #fceae9;
+    --border: .1rem solid rgba(0,0,0,.1);
+    --box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+    --rosa-intenso: #ff3d6c;
+    --tv-border: #333;
+    --tv-shadow: rgba(0, 0, 0, 0.2);
+    --screen-bg: #000;
+    --tv-glow: rgba(255, 255, 255, 0.2);
+    --amarelo: #fdd330;
+    --rosa-fraco: #fceae9;
+}
+
+* {
+    font-family: 'PoppinsRegular', 'Rubik', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: all .3s ease-out;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 9rem;
+    overflow-x: hidden;
+}
+
+.heading {
+    text-align: center;
+    padding-bottom: 3rem;
+    font-size: 4rem;
+    color: var(--black);
+}
+
+    .heading span {
+        color: var(--main-color);
+        border-radius: .5rem;
+        background: var(--bg);
+        padding: 0 1.5rem;
+    }
